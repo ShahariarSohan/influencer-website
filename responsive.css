@@ -55,6 +55,20 @@
        height: auto;
        gap:40px;  
    }
+   .popular-collectin-container{
+    width:80%;
+   }
+   .card-container{
+     grid-template-columns: 1fr;
+     width:100%;
+   }
+   .card{
+    width:100%;
+    height:auto;
+   }
+   .card-img{
+    width:100%;
+   }
 
 }
 @media screen and (min-width:576px) and (max-width:1080px){
@@ -81,5 +95,19 @@
     height: auto;
     gap:20px;  
 }
+.popular-collection-container{
+    width:100%;
+}
+.card{
+    width:100%;
+    height:auto;
+}
+.card-img{
+    width:100%;
+}
+.card-container{
+    grid-template-columns: repeat(2,1fr);
+    width:100%;
 
+  }
 }

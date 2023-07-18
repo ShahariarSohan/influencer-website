@@ -23,29 +23,29 @@
     color: #18191F;
     font-size: 1.75rem;
     font-weight: 500;
-    margin:10px 0;
+    margin: 10px 0;
 }
 
 .paragraph-primary {
     color: rgba(0, 0, 0, 0.87);
     font-size: 1.5rem;
     font-weight: 400;
-    margin:10px 0;
+    margin: 10px 0;
 }
 
 span {
     color: #5E6366;
     font-size: 0.875rem;
     font-weight: 700;
-    margin:0;
+    margin: 0;
 }
 
 .description-primary {
-    width:150px;
-    color:#787885;
+    width: 150px;
+    color: #787885;
     font-size: .875rem;
     font-weight: 700;
-    margin-top:3px;
+    margin-top: 3px;
 }
 
 body {
@@ -135,16 +135,20 @@ ul li a {
 }
 
 /* popular collection section styles */
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    row-gap: 30px;
-    margin-top:50px;
+.popular-collection-container{
     margin-bottom: 100px;
 }
-.title-popular-collection{
-    text-align:center;
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    margin-top: 50px;
 }
+
+.title-popular-collection {
+    text-align: center;
+}
+
 .card {
 
     width: 330px;
@@ -153,6 +157,12 @@ ul li a {
     background: #FFF;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     padding: 15px;
+}
 
-
+.see-more {
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: right;
+    
 }
