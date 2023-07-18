@@ -135,9 +135,10 @@ ul li a {
 }
 
 /* popular collection section styles */
-.popular-collection-container{
+.popular-collection-container {
     margin-bottom: 100px;
 }
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -164,5 +165,28 @@ ul li a {
     font-size: 1rem;
     font-weight: 700;
     text-align: right;
-    
 }
+    /* feature section styles */
+    .feature-container{
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        margin-bottom:100px;
+        gap:20px;
+    }
+
+    .feature-title {
+        color: #0A0826;
+        font-size: 2.375rem;
+        font-weight: 700;
+    }
+
+    .feature-description {
+        width: 500px;
+        color: #6C6C6C;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .join-now{
+        border-radius:2px;
+    }
