@@ -78,7 +78,11 @@ ul li a {
     font-weight: 700;
 }
 .banner-logo-container {
+    height:440px;
     background-image: url('images/Circle design.svg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+.banner-logo{
+    padding:25px;
 }
