@@ -24,14 +24,16 @@
         gap:30px;
     }
     .banner-content{
-        width:80%;
+        width:100%;
+        text-align:center;
         margin:auto;
     }
-    .btn-primary{
-        margin:10px 0;
+    .banner-title{
+        font-size: 2rem;
     }
- 
-   
+    .banner-description{
+        margin:20px 0;
+    }
    .banner-logo-container{
         width:80%;
         height:80%;
@@ -43,4 +45,12 @@
 
    }
 
+}
+@media screen and (min-width:576px) and (max-width:992px){
+   .banner-container{
+        gap:40px;
+   } 
+    .banner-content{
+        width:40%;
+    }
 }
