@@ -4,6 +4,8 @@
     }
     .nav-container,
     nav ul{
+        margin:0;
+        padding:0;
         flex-direction: column;
     }
     nav ul{
@@ -41,8 +43,6 @@
    .banner-logo{
       width:80%;
       margin:30px;
-      
-
    }
 
 }
