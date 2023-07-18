@@ -7,8 +7,7 @@
     font-family: 'Work Sans', sans-serif
 }
 
-/* header styles */
-header {
+body {
     width: 80%;
     margin: auto;
 }
@@ -86,4 +85,12 @@ ul li a {
 }
 .banner-logo{
     margin:20px;
+}
+/* sponsor section style */
+.sponsors-container{
+    height:100px;
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom:100px;
 }
