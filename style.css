@@ -1,10 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Montserrat:wght@400;600&family=Open+Sans:wght@400;700;800&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Work+Sans:wght@500;600;700&display=swap');
 
 * {
-   
+
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif
+}
+
+/* shared styles */
+
+.btn-primary {
+    padding: 10px 24px;
+    border-radius: 41px;
+    border: none;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.title-primary {
+    color: #18191F;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin:0;
+}
+
+.paragraph-primary {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom:0;
+}
+
+span {
+    color: #5E6366;
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom:0;
+}
+
+.description-primary {
+    width:190px;
+    color:#787885;
+    font-size: .875rem;
+    font-weight: 700;
+    margin:0;
 }
 
 body {
@@ -64,37 +105,51 @@ ul li a {
     font-size: 1rem;
     font-weight: 600;
     margin-right: 40px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 
 }
 
-.btn-primary {
-    padding: 10px 24px;
-    border-radius: 41px;
-    border: none;
-    background: #E02C6D;
-    color: #FFF;
-    font-size: 1rem;
-    font-weight: 700;
-}
 .banner-logo-container {
-    height:480px;
+    height: 480px;
     background-image: url('images/Circle design.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner-logo{
-    margin:20px;
+
+.banner-logo {
+    margin: 20px;
 }
+
 /* sponsor section style */
-.sponsors-container{
-    height:100px;
-   display:flex;
-   justify-content: space-around;
-   align-items: center;
-   margin-bottom:100px;
+.sponsors-container {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
 }
-.sponsors-logo{
-    width:100px;
-    height:30px;
+
+.sponsors-logo {
+    width: 100px;
+    height: 30px;
+}
+
+/* popular collection section styles */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.card {
+
+    width: 320px;
+    height: 450px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+
+
 }
